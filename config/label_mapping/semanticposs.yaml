@@ -1,0 +1,108 @@
+labels:
+  0: unlabeled
+  1: outlier
+  4: 1 person
+  5: 2+ person
+  6: rider
+  7: car
+  8: trunk
+  9: plants
+  10: traffic sign 1
+  11: traffic sign 2
+  12: traffic sign 3
+  13: pole
+  14: garbage-can
+  15: building
+  16: cone/stone
+  17: bike
+  18: ignored-18
+  19: ignored-19
+  20: ignored-20
+  21: ground
+  22: fence
+color_map:
+  0: [0, 0, 0]
+  1: [0, 0, 0]
+  4: [255, 30, 30]
+  5: [255, 80, 80]
+  6: [255, 120, 0]
+  7: [30, 30, 255]
+  8: [80, 60, 40]
+  9: [0, 180, 0]
+  10: [255, 255, 0]
+  11: [255, 200, 0]
+  12: [255, 150, 0]
+  13: [150, 150, 150]
+  14: [120, 120, 255]
+  15: [0, 200, 255]
+  16: [180, 180, 180]
+  17: [255, 0, 255]
+  18: [0, 0, 0]
+  19: [0, 0, 0]
+  20: [0, 0, 0]
+  21: [80, 80, 80]
+  22: [0, 120, 255]
+learning_map:
+  0: 0
+  1: 0
+  4: 1
+  5: 1
+  6: 2
+  7: 3
+  8: 4
+  9: 5
+  10: 6
+  11: 6
+  12: 6
+  13: 7
+  14: 8
+  15: 9
+  16: 10
+  17: 11
+  18: 0
+  19: 0
+  20: 0
+  21: 12
+  22: 13
+learning_map_inv:
+  0: 0
+  1: 4
+  2: 6
+  3: 7
+  4: 8
+  5: 9
+  6: 10
+  7: 13
+  8: 14
+  9: 15
+  10: 16
+  11: 17
+  12: 21
+  13: 22
+learning_ignore:
+  0: True
+  1: False
+  2: False
+  3: False
+  4: False
+  5: False
+  6: False
+  7: False
+  8: False
+  9: False
+  10: False
+  11: False
+  12: False
+  13: False
+  14: True
+split:
+  train:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+  valid:
+    - 5
+  test:
+    - 5
